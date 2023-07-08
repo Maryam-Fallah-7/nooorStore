@@ -1,0 +1,173 @@
+nav{
+    background-color: white;
+}
+.link-newStyle, .another-style{
+    color: black !important;
+    font-size:20px !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:80px;
+    font-weight: bold;
+    }
+.another-style{
+    margin-left:5px;
+    }
+.logo{
+      width: 80px;
+      height: 80px;
+      margin-left: 40px;
+    }
+    
+    .icon{
+      display:flex;
+      margin-right:60px ;
+    }
+    .icon-newStyle{
+      color: black !important;
+      font-size:25px !important;
+        }
+
+.content h1{
+    background-color: rgb(233, 227, 227);
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+height:40vh;
+font-size:60px;
+padding-top:50px ;
+
+}
+.content .parent{
+    border-radius: 5px;
+  background-color: white;
+    position: relative;
+    bottom:110px;
+   padding: 40px;
+   box-shadow: 5px 5px 10px 10px rgb(214, 210, 210);
+    width: 80%;
+    margin: auto;
+    margin-bottom:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.content .parent .contact{
+    padding: 20px;
+    width:30%;
+    border: 2px solid  rgb(228, 220, 220);
+    border-radius:5px;
+   text-align: center;
+} 
+.content .parent .contact .contact-icon ,.content .parent .contact .contact-icon a{
+    font-size:30px;
+    color:rgb(212, 50, 50);
+} 
+
+.content .parent .contact .contact-info p ,.content .parent .contact .contact-info p a{
+    line-height:1;
+    color: rgb(37, 37, 37);
+}
+
+.whats-btn  {
+    text-align: center;
+} 
+.whats-btn a{
+    width:70% ;
+}
+
+footer{
+        /* margin-top: 150px; */
+        background-color: rgb(1, 1, 17);
+        padding-top:20px;
+        /* height:60vh; */
+      }
+      footer h6 a{
+        text-decoration: none !important;
+        color: white;
+       }
+       footer h6 a:hover {
+       color: rgb(231, 30, 30);
+       font-size:17px;
+       }
+       
+       footer .description{
+         color:white;
+         margin-top: 30px;
+         margin-left: 130px;
+       }
+       footer .description p{
+       font-weight: 100;
+       font-size:15px;
+       }
+       footer .contact-us{
+         margin-top:40px;
+         padding:10px 0px 15px 0px  ;
+         border-top:1px solid rgb(138, 132, 132);
+         text-align: center;
+       }
+       footer .contact-us .icon-newStyle{
+       color: white !important;
+       padding-left: 15px;
+       }
+       footer .footer-logo{
+           
+         width: 80px;
+             height: 80px;
+             margin-left: 40px;
+          
+        
+       }
+  
+
+       /* @media (max-width:2000px) 
+       {
+            
+             .content h1{
+              padding-top: 100px;
+           } 
+           .content .parent{
+           bottom:150px;
+         } 
+           
+       } */
+    @media (max-width:768px) 
+    {
+      .link-newStyle{
+       
+        margin-left:0px;
+          }
+         
+          .content .parent .contact{
+           
+            width:90%;
+            margin-bottom: 10px;
+        } 
+        
+    }
+    
+    @media (max-width:600px) 
+    {
+    
+        
+      .link-newStyle{
+       
+        margin-left:0px;
+          }
+          .content h1{
+            font-size:25px;
+          }
+
+          .content .parent{
+          display: block;
+        
+        }
+        .content .parent .contact{
+           
+            width:100%;
+            margin-bottom: 10px;
+        } 
+         
+       footer .description{
+        margin-left:0px;
+    } 
+      
+    }
